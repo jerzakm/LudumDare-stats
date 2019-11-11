@@ -1,0 +1,28 @@
+{
+  "name": "ld-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack",
+    "run": "nodemon build/index.js --ignore *.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.7.0",
+    "@types/sqlite3": "^3.1.5",
+    "nodemon": "^1.19.1",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-node-externals": "^1.7.2",
+    "webpack-shell-plugin": "^0.5.0"
+  },
+  "dependencies": {
+    "request": "^2.88.0",
+    "sqlite3": "^4.1.0"
+  }
+}
